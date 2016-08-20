@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PerCentum</string>
+    <string name="first_activity_title">Calculate the percentage of one number
+        from the other</string>
+    <string name="input_main_number">Input main number</string>
+    <string name="input_part_number">Input part number</string>
+    <string name="result">Result</string>
+    <string name="button_calculate">Calculate</string>
+
+</resources>
