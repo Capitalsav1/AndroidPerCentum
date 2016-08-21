@@ -31,7 +31,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorBlack"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal"
+        android:id="@+id/mainNumberId"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -46,7 +47,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorBlack"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal"
+        android:id="@+id/partNumberId"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,9 +64,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textSize="10pt"
-        android:text="54654654654%"
         android:layout_marginTop="5dp"
-        android:textColor="@color/colorBlack"/>
+        android:textColor="@color/colorBlack"
+        android:id="@+id/resultTvId"/>
 
     <Button
         android:layout_width="match_parent"
@@ -73,5 +75,6 @@
         android:layout_marginTop="10dp"
         android:text="@string/button_calculate"
         android:textColor="@color/colorWhite"
-        android:textSize="10pt"/>
+        android:textSize="10pt"
+        android:onClick="btnClick"/>
 </LinearLayout>
